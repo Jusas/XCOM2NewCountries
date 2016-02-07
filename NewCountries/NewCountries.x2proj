@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>516c55f2-f613-47bb-a8ae-6ef0ba967918</Guid>
+    <Name>New Countries</Name>
+    <Description>Added some new nationalities to choose from.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>NewCountries</AssemblyName>
+    <RootNamespace>NewCountries</RootNamespace>
+    <ProjectGuid>{05d63260-a9a0-41db-87f9-790d80fa8503}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\XComGame\" />
+    <Folder Include="Src\XComGame\Classes\" />
+    <Folder Include="Src\NewCountries\" />
+    <Folder Include="Src\NewCountries\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComGameBoard.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_Mod_NewCountries.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\X2_UnitFlags_Mod_NewCountries.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\X2CharacterNameClass_NewCountries.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\NewCountries\Classes\X2CharacterNameClass_NewCountries.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\NewCountries\Classes\X2DownloadableContentInfo_NewCountries.uc" />
+    <Content Include="Src\NewCountries\Classes\X2StrategyElement_NewCountries.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

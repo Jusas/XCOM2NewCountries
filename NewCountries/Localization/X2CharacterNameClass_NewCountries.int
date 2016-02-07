@@ -1,0 +1,1 @@
+; For some reason, if I put the names here I get 0 length arrays. It's like the localized array doesn't get populated in time or at all.

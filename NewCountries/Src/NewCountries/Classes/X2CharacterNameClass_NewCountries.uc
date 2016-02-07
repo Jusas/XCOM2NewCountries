@@ -42,6 +42,30 @@ var array<string> m_arrPerLastNames;
 var array<string> m_arrNzMFirstNames;
 var array<string> m_arrNzFFirstNames;
 var array<string> m_arrNzLastNames;
+// Denmark
+var array<string> m_arrDenMFirstNames;
+var array<string> m_arrDenFFirstNames;
+var array<string> m_arrDenLastNames;
+// Iceland
+var array<string> m_arrIceMFirstNames;
+var array<string> m_arrIceFFirstNames;
+var array<string> m_arrIceMLastNames;
+var array<string> m_arrIceFLastNames;
+// Uruguay
+var array<string> m_arrUruMFirstNames;
+var array<string> m_arrUruFFirstNames;
+var array<string> m_arrUruLastNames;
+// Jamaica
+var array<string> m_arrJamMFirstNames;
+var array<string> m_arrJamFFirstNames;
+var array<string> m_arrJamLastNames;
+// Croatia
+var array<string> m_arrCroMFirstNames;
+var array<string> m_arrCroFFirstNames;
+var array<string> m_arrCroLastNames;
+
+
+
 
 
 defaultproperties
@@ -602,7 +626,269 @@ defaultproperties
 	m_arrNzLastNames[16]="Clark"
 	m_arrNzLastNames[17]="White"
 	m_arrNzLastNames[18]="Stewart"
+	
+	// -------------------------------------
+	// Denmark
+	// -------------------------------------
+	
+	m_arrDenMFirstNames[0]="Aksel"
+	m_arrDenMFirstNames[1]="Anders"
+	m_arrDenMFirstNames[2]="Asbjørn"
+	m_arrDenMFirstNames[3]="Bo"
+	m_arrDenMFirstNames[4]="Bjarne"
+	m_arrDenMFirstNames[5]="Danni"
+	m_arrDenMFirstNames[6]="Christian"
+	m_arrDenMFirstNames[7]="Edvard"
+	m_arrDenMFirstNames[8]="Emil"
+	m_arrDenMFirstNames[9]="Frederik"
+	m_arrDenMFirstNames[10]="Gunnar"
+	m_arrDenMFirstNames[11]="Henrik"
+	m_arrDenMFirstNames[12]="Henry"
+	m_arrDenMFirstNames[13]="Ivar"
+	m_arrDenMFirstNames[14]="Jakob"
+	m_arrDenMFirstNames[15]="Jesper"
+	m_arrDenMFirstNames[16]="Kaj"
+	m_arrDenMFirstNames[17]="Kristian"
+	m_arrDenMFirstNames[18]="Leif"
+	m_arrDenMFirstNames[19]="Lykke"
+	m_arrDenMFirstNames[20]="Magnus"
+	m_arrDenMFirstNames[21]="Robin"
+	m_arrDenMFirstNames[22]="Stig"
+	m_arrDenMFirstNames[23]="Tobias"
+	m_arrDenMFirstNames[24]="Uffe"
+	m_arrDenMFirstNames[25]="Viggo"
 
+	m_arrDenFFirstNames[0]="Anette"
+	m_arrDenFFirstNames[1]="Anne-Lise"
+	m_arrDenFFirstNames[2]="Astrid"
+	m_arrDenFFirstNames[3]="Else"
+	m_arrDenFFirstNames[4]="Britta"
+	m_arrDenFFirstNames[5]="Carina"
+	m_arrDenFFirstNames[6]="Jasmin"
+	m_arrDenFFirstNames[7]="Ingrid"
+	m_arrDenFFirstNames[8]="Helena"
+	m_arrDenFFirstNames[9]="Christine"
+	m_arrDenFFirstNames[10]="Jenny"
+	m_arrDenFFirstNames[11]="Margit"
+	m_arrDenFFirstNames[12]="Krista"
+	m_arrDenFFirstNames[13]="Rebecca"
+	m_arrDenFFirstNames[14]="Liv"
+	m_arrDenFFirstNames[15]="Mai"
+	m_arrDenFFirstNames[16]="Susanna"
+
+	m_arrDenLastNames[0]="Amundsen"
+	m_arrDenLastNames[1]="Andersen"
+	m_arrDenLastNames[2]="Brandt"
+	m_arrDenLastNames[3]="Eriksen"
+	m_arrDenLastNames[4]="Jepsen"
+	m_arrDenLastNames[5]="Larsen"
+	m_arrDenLastNames[6]="Lind"
+	m_arrDenLastNames[7]="Thomsen"
+	m_arrDenLastNames[8]="Rasmussen"
+	m_arrDenLastNames[9]="Nielsen"
+	m_arrDenLastNames[10]="Holm"
+	m_arrDenLastNames[11]="Madsen"
+	m_arrDenLastNames[12]="Frederiksen"
+	m_arrDenLastNames[13]="Olsen"
+	m_arrDenLastNames[14]="Storm"
+	m_arrDenLastNames[15]="Jeppesen"
+	m_arrDenLastNames[16]="Dahl"
+	m_arrDenLastNames[17]="Axelsen"
+	m_arrDenLastNames[18]="Knudsen"
+
+	
+	// -------------------------------------
+	// Iceland
+	// -------------------------------------
+	
+	m_arrIceMFirstNames[0]="Alexander"
+	m_arrIceMFirstNames[1]="Arnar"
+	m_arrIceMFirstNames[2]="Birgir"
+	m_arrIceMFirstNames[3]="Breki"
+	m_arrIceMFirstNames[4]="Egill"
+	m_arrIceMFirstNames[5]="Freyr"
+	m_arrIceMFirstNames[6]="Geir"
+	m_arrIceMFirstNames[7]="Kristinn"
+	m_arrIceMFirstNames[8]="Narfi"
+	m_arrIceMFirstNames[9]="Oddur"
+	m_arrIceMFirstNames[10]="Ragnar"
+	m_arrIceMFirstNames[11]="Sveinn"
+	m_arrIceMFirstNames[12]="Torfi"
+	m_arrIceMFirstNames[13]="Unnar"
+	m_arrIceMFirstNames[14]="Vignir"
+	m_arrIceMFirstNames[15]="Yngvi"
+
+	m_arrIceFFirstNames[0]="Arngunnur"
+	m_arrIceFFirstNames[1]="Björk"
+	m_arrIceFFirstNames[2]="Freyja"
+	m_arrIceFFirstNames[3]="Gissunn"
+	m_arrIceFFirstNames[4]="Hedda"
+	m_arrIceFFirstNames[5]="Hulda"
+	m_arrIceFFirstNames[6]="Krista"
+	m_arrIceFFirstNames[7]="Magnea"
+	m_arrIceFFirstNames[8]="Sigurdis"
+	m_arrIceFFirstNames[9]="Selma"
+	m_arrIceFFirstNames[10]="Sveindis"
+	m_arrIceFFirstNames[11]="Tara"
+	m_arrIceFFirstNames[12]="Unnur"
+	m_arrIceFFirstNames[13]="Vilma"
+	m_arrIceFFirstNames[14]="Eva"
+
+	m_arrIceFLastNames[0]="Magnusdottir"
+	m_arrIceFLastNames[1]="Jonsdottir"
+	m_arrIceFLastNames[2]="Geirsdottir"
+	m_arrIceFLastNames[3]="Bryndisarson"
+	m_arrIceFLastNames[4]="Arnarsdottir"
+	m_arrIceFLastNames[5]="Ragnarsdottir"
+	m_arrIceFLastNames[6]="Sigurdsdottir"
+	m_arrIceFLastNames[7]="Magnusdottir"
+	m_arrIceFLastNames[8]="Johansdottir"
+	m_arrIceFLastNames[9]="Hrafnarsdottir"
+	m_arrIceFLastNames[10]="Rannversdottir"
+	m_arrIceFLastNames[11]="Allansdottir"
+	m_arrIceFLastNames[12]="Nilsdottir"
+
+	m_arrIceMLastNames[0]="Ingvarsson"
+	m_arrIceMLastNames[1]="Eggertsson"
+	m_arrIceMLastNames[2]="Bryndisarson"
+	m_arrIceMLastNames[3]="Torfisson"
+	m_arrIceMLastNames[4]="Arnarsson"
+	m_arrIceMLastNames[5]="Einarsson"
+	m_arrIceMLastNames[6]="Sigurdsson"
+	m_arrIceMLastNames[7]="Arnbergsson"
+	m_arrIceMLastNames[8]="Hilmarsson"
+	m_arrIceMLastNames[9]="Geislisson"
+	m_arrIceMLastNames[10]="Larsson"
+	m_arrIceMLastNames[11]="Olafsson"
+	m_arrIceMLastNames[12]="Martensson"
+	
+	// -------------------------------------
+	// Uruguay
+	// -------------------------------------
+
+	m_arrUruMFirstNames[0]="Pablo"
+	m_arrUruMFirstNames[1]="Carlos"
+	m_arrUruMFirstNames[2]="Martin"
+	m_arrUruMFirstNames[3]="Felipe"
+	m_arrUruMFirstNames[4]="Daniel"
+	m_arrUruMFirstNames[5]="Jose"
+	m_arrUruMFirstNames[6]="Pedro"
+	m_arrUruMFirstNames[7]="Edward"
+	m_arrUruMFirstNames[8]="Nando"
+	m_arrUruMFirstNames[9]="Jorge"
+	m_arrUruMFirstNames[10]="Eduardo"
+	m_arrUruMFirstNames[11]="Ruben"
+	m_arrUruMFirstNames[12]="Hugo"
+	m_arrUruMFirstNames[13]="Alfredo"
+	m_arrUruMFirstNames[14]="Luis"
+	m_arrUruMFirstNames[15]="Manuel"
+
+	m_arrUruFFirstNames[0]="Amanda"
+	m_arrUruFFirstNames[1]="Maria"
+	m_arrUruFFirstNames[2]="Carmen"
+	m_arrUruFFirstNames[3]="Camila"
+	m_arrUruFFirstNames[4]="Eva"
+	m_arrUruFFirstNames[5]="Teresa"
+	m_arrUruFFirstNames[6]="Luisa"
+	m_arrUruFFirstNames[7]="Lupe"
+	m_arrUruFFirstNames[8]="Rosita"
+	m_arrUruFFirstNames[9]="Sofia"
+	m_arrUruFFirstNames[10]="Angela"
+	m_arrUruFFirstNames[11]="Ana"
+	m_arrUruFFirstNames[12]="Anita"
+
+	m_arrUruLastNames[0]="Rodriguez"
+	m_arrUruLastNames[1]="Gonzalez"
+	m_arrUruLastNames[2]="Martinez"
+	m_arrUruLastNames[3]="Fernandez"
+	m_arrUruLastNames[4]="Perez"
+	m_arrUruLastNames[5]="Garcia"
+	m_arrUruLastNames[6]="Silva"
+	m_arrUruLastNames[7]="Lopez"
+	m_arrUruLastNames[8]="Pereira"
+	m_arrUruLastNames[9]="Sosa"
+	
+	// -------------------------------------
+	// Jamaica
+	// -------------------------------------
+
+	m_arrJamMFirstNames[0]="Danny"
+	m_arrJamMFirstNames[1]="Jimmy"
+	m_arrJamMFirstNames[2]="Adam"
+	m_arrJamMFirstNames[3]="Dixon"
+	m_arrJamMFirstNames[4]="Reggis"
+	m_arrJamMFirstNames[5]="Rodney"
+	m_arrJamMFirstNames[6]="Andrew"
+	m_arrJamMFirstNames[7]="Jarek"
+	m_arrJamMFirstNames[8]="David"
+	m_arrJamMFirstNames[9]="Marvin"
+
+	m_arrJamFFirstNames[0]="Rita"
+	m_arrJamFFirstNames[1]="Nicole"
+	m_arrJamFFirstNames[2]="Olivia"
+	m_arrJamFFirstNames[3]="Tia"
+	m_arrJamFFirstNames[4]="Rachel"
+	m_arrJamFFirstNames[5]="Donna"
+	m_arrJamFFirstNames[6]="Shauna"
+	m_arrJamFFirstNames[7]="Fawn"
+	m_arrJamFFirstNames[8]="Kate"
+	m_arrJamFFirstNames[9]="Valeria"
+
+	m_arrJamLastNames[0]="Brown"
+	m_arrJamLastNames[1]="Clarke"
+	m_arrJamLastNames[2]="Thomas"
+	m_arrJamLastNames[3]="Lewis"
+	m_arrJamLastNames[4]="Wright"
+	m_arrJamLastNames[5]="Smith"
+	m_arrJamLastNames[6]="Johnson"
+	m_arrJamLastNames[7]="Davis"
+	m_arrJamLastNames[8]="Miller"
+	m_arrJamLastNames[9]="Morgan"
+	m_arrJamLastNames[10]="Simms"
+	m_arrJamLastNames[11]="Graham"
+	
+	// -------------------------------------
+	// Croatia
+	// -------------------------------------
+
+	m_arrCroMFirstNames[0]="Bogdan"
+	m_arrCroMFirstNames[1]="Boris"
+	m_arrCroMFirstNames[2]="Mislav"
+	m_arrCroMFirstNames[3]="Dixon"
+	m_arrCroMFirstNames[4]="Radomir"
+	m_arrCroMFirstNames[5]="Ratko"
+	m_arrCroMFirstNames[6]="Zlatko"
+	m_arrCroMFirstNames[7]="Goran"
+	m_arrCroMFirstNames[8]="Hrvoj"
+	m_arrCroMFirstNames[9]="Drago"
+	m_arrCroMFirstNames[10]="Milan"
+	m_arrCroMFirstNames[11]="Davor"
+	m_arrCroMFirstNames[12]="Srebrenko"
+
+	m_arrCroFFirstNames[0]="Bogdana"
+	m_arrCroFFirstNames[1]="Ljuba"
+	m_arrCroFFirstNames[2]="Sanja"
+	m_arrCroFFirstNames[3]="Hrvoja"
+	m_arrCroFFirstNames[4]="Mila"
+	m_arrCroFFirstNames[5]="Mira"
+	m_arrCroFFirstNames[6]="Zlata"
+	m_arrCroFFirstNames[7]="Stana"
+	m_arrCroFFirstNames[8]="Nada"
+	m_arrCroFFirstNames[9]="Zvonka"
+
+	m_arrCroLastNames[0]="Stolar"
+	m_arrCroLastNames[1]="Horvat"
+	m_arrCroLastNames[2]="Novak"
+	m_arrCroLastNames[3]="Vukovic"
+	m_arrCroLastNames[4]="Maric"
+	m_arrCroLastNames[5]="Babic"
+	m_arrCroLastNames[6]="Markovic"
+	m_arrCroLastNames[7]="Juric"
+
+	// -------------------------------------
+	// Oman
+	// -------------------------------------
+	// Using arabic names already supplied in the game.
 
 }
 

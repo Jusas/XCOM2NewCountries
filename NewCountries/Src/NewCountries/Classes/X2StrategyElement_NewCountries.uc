@@ -17,6 +17,12 @@ static function array<X2DataTemplate> CreateTemplates()
 	Countries.AddItem(CreateChileTemplate());
 	Countries.AddItem(CreatePeruTemplate());
 	Countries.AddItem(CreateNewZealandTemplate());
+	Countries.AddItem(CreateDenmarkTemplate());
+	Countries.AddItem(CreateIcelandTemplate());
+	Countries.AddItem(CreateUruguayTemplate());
+	Countries.AddItem(CreateJamaicaTemplate());
+	Countries.AddItem(CreateCroatiaTemplate());
+	Countries.AddItem(CreateOmanTemplate());
 
 	return Countries;
 }
@@ -192,6 +198,113 @@ static function X2DataTemplate CreateNewZealandTemplate()
 
 	return Template;
 }
+
+// New additions
+
+static function X2DataTemplate CreateDenmarkTemplate()
+{
+	local X2CountryTemplate Template;
+	local CountryNames NameStruct;
+
+	`CREATE_X2TEMPLATE(class'X2CountryTemplate', Template, 'Country_Denmark');
+
+	NameStruct.MaleNames = class'X2CharacterNameClass_NewCountries'.default.m_arrDenMFirstNames;
+	NameStruct.FemaleNames = class'X2CharacterNameClass_NewCountries'.default.m_arrDenFFirstNames;
+	NameStruct.MaleLastNames = class'X2CharacterNameClass_NewCountries'.default.m_arrDenLastNames;
+	NameStruct.FemaleLastNames = class'X2CharacterNameClass_NewCountries'.default.m_arrDenLastNames;
+	NameStruct.PercentChance = 100;
+	Template.Names.AddItem(NameStruct);
+
+	return Template;
+}
+
+
+static function X2DataTemplate CreateIcelandTemplate()
+{
+	local X2CountryTemplate Template;
+	local CountryNames NameStruct;
+
+	`CREATE_X2TEMPLATE(class'X2CountryTemplate', Template, 'Country_Iceland');
+
+	NameStruct.MaleNames = class'X2CharacterNameClass_NewCountries'.default.m_arrIceMFirstNames;
+	NameStruct.FemaleNames = class'X2CharacterNameClass_NewCountries'.default.m_arrIceFFirstNames;
+	NameStruct.MaleLastNames = class'X2CharacterNameClass_NewCountries'.default.m_arrIceMLastNames;
+	NameStruct.FemaleLastNames = class'X2CharacterNameClass_NewCountries'.default.m_arrIceFLastNames;
+	NameStruct.PercentChance = 100;
+	Template.Names.AddItem(NameStruct);
+
+	return Template;
+}
+
+static function X2DataTemplate CreateUruguayTemplate()
+{
+	local X2CountryTemplate Template;
+	local CountryNames NameStruct;
+
+	`CREATE_X2TEMPLATE(class'X2CountryTemplate', Template, 'Country_Uruguay');
+
+	NameStruct.MaleNames = class'X2CharacterNameClass_NewCountries'.default.m_arrUruMFirstNames;
+	NameStruct.FemaleNames = class'X2CharacterNameClass_NewCountries'.default.m_arrUruFFirstNames;
+	NameStruct.MaleLastNames = class'X2CharacterNameClass_NewCountries'.default.m_arrUruLastNames;
+	NameStruct.FemaleLastNames = class'X2CharacterNameClass_NewCountries'.default.m_arrUruLastNames;
+	NameStruct.PercentChance = 100;
+	Template.Names.AddItem(NameStruct);
+
+	return Template;
+}
+
+
+static function X2DataTemplate CreateJamaicaTemplate()
+{
+	local X2CountryTemplate Template;
+	local CountryNames NameStruct;
+
+	`CREATE_X2TEMPLATE(class'X2CountryTemplate', Template, 'Country_Jamaica');
+
+	NameStruct.MaleNames = class'X2CharacterNameClass_NewCountries'.default.m_arrJamMFirstNames;
+	NameStruct.FemaleNames = class'X2CharacterNameClass_NewCountries'.default.m_arrJamFFirstNames;
+	NameStruct.MaleLastNames = class'X2CharacterNameClass_NewCountries'.default.m_arrJamLastNames;
+	NameStruct.FemaleLastNames = class'X2CharacterNameClass_NewCountries'.default.m_arrJamLastNames;
+	NameStruct.PercentChance = 100;
+	Template.Names.AddItem(NameStruct);
+
+	return Template;
+}
+
+static function X2DataTemplate CreateCroatiaTemplate()
+{
+	local X2CountryTemplate Template;
+	local CountryNames NameStruct;
+
+	`CREATE_X2TEMPLATE(class'X2CountryTemplate', Template, 'Country_Croatia');
+
+	NameStruct.MaleNames = class'X2CharacterNameClass_NewCountries'.default.m_arrCroMFirstNames;
+	NameStruct.FemaleNames = class'X2CharacterNameClass_NewCountries'.default.m_arrCroFFirstNames;
+	NameStruct.MaleLastNames = class'X2CharacterNameClass_NewCountries'.default.m_arrCroLastNames;
+	NameStruct.FemaleLastNames = class'X2CharacterNameClass_NewCountries'.default.m_arrCroLastNames;
+	NameStruct.PercentChance = 100;
+	Template.Names.AddItem(NameStruct);
+
+	return Template;
+}
+
+static function X2DataTemplate CreateOmanTemplate()
+{
+	local X2CountryTemplate Template;
+	local CountryNames NameStruct;
+
+	`CREATE_X2TEMPLATE(class'X2CountryTemplate', Template, 'Country_Oman');
+
+	NameStruct.MaleNames = class'XGCharacterGenerator'.default.m_arrAbMFirstNames;
+	NameStruct.FemaleNames = class'XGCharacterGenerator'.default.m_arrAbFFirstNames;
+	NameStruct.MaleLastNames = class'XGCharacterGenerator'.default.m_arrAbLastNames;
+	NameStruct.FemaleLastNames = class'XGCharacterGenerator'.default.m_arrAbLastNames;
+	NameStruct.PercentChance = 100;
+	Template.Names.AddItem(NameStruct);
+
+	return Template;
+}
+
 
 defaultproperties
 {
